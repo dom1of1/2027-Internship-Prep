@@ -1,3 +1,6 @@
+## Short term goal - Prepping for the 2026 recruiting season (2027 Summer/Fall Internships)
+## Long term goal - Prepping for 2027 recruiting season (New Grad Roles)
+
 # RESOURCES I AM USING 
 ## DSA
 
