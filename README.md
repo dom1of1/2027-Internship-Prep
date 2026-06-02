@@ -26,7 +26,7 @@ System Design for Beginners by Neetcode](https://neetcode.io/courses/system-desi
 [Grokking-the-system-design-interview](https://drive.google.com/file/d/1S7gAnsOr5V6936EFAYuWrOu2JS82pFEo/view?usp=sharing)
 
 [The System Design Primer
-]([https://](https://github.com/donnemartin/system-design-primer))
+](https://github.com/donnemartin/system-design-primer)
 
 ## OBJECT ORIENTED DESIGN
 
