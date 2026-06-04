@@ -9,3 +9,6 @@ class Solution:
             
             else:
                 num_Map[num] = index
+        
+         # Time Complexity - O(n)
+        # Space Complexity - O(n)

@@ -10,3 +10,6 @@ class Solution:
                 nums_dict[num] = 1
         
         return False
+
+        # Time Complexity - O(n)
+        # Space Complexity - O(n)
