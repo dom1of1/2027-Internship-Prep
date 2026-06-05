@@ -15,4 +15,15 @@ class Solution:
             anagrams_map[key].append(string)
         
         return list(anagrams_map.values())
-            
+        
+
+
+'''
+
+   Time Complexity - O(n * m)
+   Space Complexity - O(n * m)
+   n - number of strings
+   m - length of each string
+
+'''
+
