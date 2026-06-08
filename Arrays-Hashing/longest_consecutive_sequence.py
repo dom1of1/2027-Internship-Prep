@@ -18,4 +18,6 @@ class Solution:
         return longest
 
 # Time Complexity - O(n)
+# The nested while loop only runs when num - 1 is not in the set hence it does not become O(n^2) as one might suspect.
+
 # Space Complexity - O(n)
