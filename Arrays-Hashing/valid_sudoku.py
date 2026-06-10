@@ -1,6 +1,6 @@
 class Solution:
     def isValidSudoku(self, board: List[List[str]]) -> bool:
-
+        
         #validate each row
         for row in board:
             distinct = set()
@@ -52,5 +52,16 @@ class Solution:
                 
         return True
 
-# Time Complexity - O(1) (fixed 9×9 board)
-# Space Complexity - O(1) (bounded sets)
+"""
+Time Complexity - O(1)
+The input size never changes because a Sudoku board is always 9×9.
+We always perform the same number of operations:
+- 81 checks for rows
+- 81 checks for columns
+- 81 checks for 3×3 sub-boxes
+Total ≈ 243 fixed operations, so runtime does not scale with input size.
+
+Space Complexity - O(1)
+The space usage is constant because at any point in execution we only store a constant number of small sets (row, column, or box checks), and each set can hold at most 9 elements (digits 1–9).
+Although new sets are created during different phases of the algorithm, they are not all stored at the same time. Previous sets become unreachable after each iteration and are discarded, so memory does not accumulate over time.
+"""
