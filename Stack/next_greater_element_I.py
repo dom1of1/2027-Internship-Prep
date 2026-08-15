@@ -63,11 +63,9 @@ class Solution:
 
 """
 Time Complexity - O(n)
-We iterate through nums2 once. Each element is pushed onto the stack at
-most once and popped from the stack at most once, so the total work is
-O(n) (iteration) + O(n) (pushes) + O(n) (pops) = O(n).
+Each element in nums2 is pushed onto the stack at most once and popped at most once.
 
-Space Complexity - O(m)
-We create a hashmap, a result list, and a stack, each of which can store
-at most m elements.
+Space Complexity - O(n + m)
+The hashmap and result use O(m) space, while the stack
+can contain up to O(n) elements.
 """
